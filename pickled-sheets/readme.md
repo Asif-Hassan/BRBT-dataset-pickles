@@ -1,4 +1,4 @@
-###Pickled dataset (folder)
+###Pickled sheets (folder)
 
 This folder holds one `.pkl.gz` file (total three) for each individual sheet in brbt-dataset xlsx file. String/text data were tokenized first and made a tuple of [[data], [label1], [label2]] where data holds the tokens, and label1 and label2 are first validation and second validation respectively. It was then converted into numpy array and shuffled; and finally, pickled.
 
